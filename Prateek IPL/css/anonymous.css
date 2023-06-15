@@ -1,0 +1,53 @@
+/* Heading styling */
+h1 {
+	font-size: 2em;
+	margin-bottom: 0.5em;
+}
+
+/* Table styling */
+table {
+	border-collapse: collapse;
+	margin-bottom: 1em;
+}
+
+/* Table heading and data styling */
+th, td {
+	padding: 0.5em;
+	text-align: center;
+	border: 1px solid black;
+}
+
+th {
+	background-color: lightgray;
+	font-weight: bold;
+}
+
+/* Button styling */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 16px;
+}
+  
+button:hover {
+  background-color: #0056b3;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Link styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #0056b3;
+}
+  
